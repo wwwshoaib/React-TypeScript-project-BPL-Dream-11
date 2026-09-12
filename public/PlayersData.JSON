@@ -1,0 +1,266 @@
+[
+  {
+    "id": 11,
+    "name": "Shahid Afridi",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTneljZhxue-lsC1K-fVGg8U3wXKyPc85YtauLjpaHqzP03_6Z5cLbWHLZffGcqqnhzUvFBZb_rAhdL46F1_GdZzwQBIMyfWjyH0VlH8WopecixWA&s=10&ec=121966386",
+    "origin": "Pakistan",
+    "position": "All-rounder",
+    "price": "700,000"
+  },
+  {
+    "id": 12,
+    "name": "Shoaib Malik",
+    "image": "https://api.bdcrictime.com/shoaib-malik-psl-retirement-20_01_2026.jpg",
+    "origin": "Pakistan",
+    "position": "All-rounder",
+    "price": "500,000"
+  },
+  {
+    "id": 13,
+    "name": "Hasan Mahmud",
+    "image": "https://static.toiimg.com/thumb/msid-104025417,width-400,resizemode-4/104025417.jpg",
+    "origin": "Bangladesh",
+    "position": "Bowler",
+    "price": "45,000"
+  },
+  {
+    "id": 14,
+    "name": "Brett Lee",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdYGqdSXQQSGZkEJBlkM23fBSL5SYRKtxMHsWRT6c4PQBrl8WosjnbLLU&s=10",
+    "origin": "Australia",
+    "position": "Bowler",
+    "price": "900,000"
+  },
+  {
+    "id": 15,
+    "name": "Tanzid Hasan Tamim",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg",
+    "origin": "Bangladesh",
+    "position": "Batter",
+    "price": "42,000"
+  },
+  {
+    "id": 16,
+    "name": "Shoaib Akhtar",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Shoaib_Akhtar.jpg",
+    "origin": "Pakistan",
+    "position": "Bowler",
+    "price": "425,000"
+  },
+  {
+    "id": 17,
+    "name": "Jos Buttler",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Jos_Buttler_2023.jpg",
+    "origin": "England",
+    "position": "Wicketkeeper-Batter",
+    "price": "1,890,000"
+  },
+  {
+    "id": 33,
+    "name": "Andre Russell",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQ36XcWtl5RYLK5EWsXyt2VVGK5_FGMcnNHae98IhGgZwlY7JppFZCI2fm-hGXHS6uJFXgKm6BZIaybMvYKvzcbfIklIiyVMTrQVkCDAVyElqK0w&s=10&ec=121966386",
+    "origin": "West Indies",
+    "position": "All-rounder",
+    "price": "1,440,000"
+  },
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Virat_Kohli_during_the_balcony_celebrations_at_Wankhede_Stadium.jpg",
+    "origin": "India",
+    "position": "Batter",
+    "price": "2,520,000"
+  },
+  {
+    "id": 2,
+    "name": "Cameron Green",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Cameron_Green_2023.jpg",
+    "origin": "Australia",
+    "position": "All-rounder",
+    "price": "3,024,000"
+  },
+  {
+    "id": 3,
+    "name": "Rishabh Pant",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Rishabh_Pant.jpg",
+    "origin": "India",
+    "position": "Wicketkeeper-Batter",
+    "price": "3,240,000"
+  },
+  {
+    "id": 4,
+    "name": "Matheesha Pathirana",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Matheesha_Pathirana.jpg",
+    "origin": "Sri Lanka",
+    "position": "Bowler",
+    "price": "2,160,000"
+  },
+  {
+    "id": 5,
+    "name": "Jasprit Bumrah",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/02/Jasprit_Bumrah.jpg",
+    "origin": "India",
+    "position": "Bowler",
+    "price": "2,160,000"
+  },
+  {
+    "id": 6,
+    "name": "Prashant Veer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg",
+    "origin": "India",
+    "position": "All-rounder",
+    "price": "1,704,000"
+  },
+  {
+    "id": 7,
+    "name": "Travis Head",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Travis_Head_2023.jpg",
+    "origin": "Australia",
+    "position": "Batter",
+    "price": "1,680,000"
+  },
+  {
+    "id": 8,
+    "name": "Heinrich Klaasen",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Heinrich_Klaasen.jpg",
+    "origin": "South Africa",
+    "position": "Wicketkeeper-Batter",
+    "price": "2,760,000"
+  },
+  {
+    "id": 9,
+    "name": "Rashid Khan",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Rashid_Khan.jpg",
+    "origin": "Afghanistan",
+    "position": "Bowler",
+    "price": "2,160,000"
+  },
+  {
+    "id": 10,
+    "name": "Sunil Narine",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/86/Sunil_Narine.jpg",
+    "origin": "West Indies",
+    "position": "All-rounder",
+    "price": "1,440,000"
+  },
+  {
+    "id": 18,
+    "name": "James Anderson",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/2a/James_Anderson_2023.jpg",
+    "origin": "England",
+    "position": "Bowler",
+    "price": "150,000"
+  },
+  {
+    "id": 19,
+    "name": "Trent Boult",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Trent_Boult_2023.jpg",
+    "origin": "New Zealand",
+    "position": "Bowler",
+    "price": "1,440,000"
+  },
+  {
+    "id": 20,
+    "name": "Pat Cummins",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Pat_Cummins_2023.jpg",
+    "origin": "Australia",
+    "position": "Bowler",
+    "price": "2,160,000"
+  },
+  {
+    "id": 21,
+    "name": "Mitchell Starc",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Mitchell_Starc_2023.jpg",
+    "origin": "Australia",
+    "position": "Bowler",
+    "price": "2,980,000"
+  },
+  {
+    "id": 22,
+    "name": "Harry Brook",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Harry_Brook_2023.jpg",
+    "origin": "England",
+    "position": "Batter",
+    "price": "750,000"
+  },
+  {
+    "id": 23,
+    "name": "Jofra Archer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Jofra_Archer.jpg",
+    "origin": "England",
+    "position": "Bowler",
+    "price": "1,500,000"
+  },
+  {
+    "id": 24,
+    "name": "Naseem Shah",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Naseem_Shah.jpg",
+    "origin": "Pakistan",
+    "position": "Bowler",
+    "price": "300,000"
+  },
+  {
+    "id": 25,
+    "name": "Babar Azam",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Babar_Azam.jpg",
+    "origin": "Pakistan",
+    "position": "Batter",
+    "price": "1,100,000"
+  },
+  {
+    "id": 26,
+    "name": "Shreyas Iyer",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Shreyas_Iyer.jpg",
+    "origin": "India",
+    "position": "Batter",
+    "price": "3,210,000"
+  },
+  {
+    "id": 27,
+    "name": "Hardik Pandya",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Hardik_Pandya.jpg",
+    "origin": "India",
+    "position": "All-rounder",
+    "price": "1,960,000"
+  },
+  {
+    "id": 28,
+    "name": "George Munsey",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg",
+    "origin": "Scotland",
+    "position": "Batter",
+    "price": "50,000"
+  },
+  {
+    "id": 29,
+    "name": "Mark Watt",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg",
+    "origin": "Scotland",
+    "position": "Bowler",
+    "price": "40,000"
+  },
+  {
+    "id": 30,
+    "name": "Wanindu Hasaranga",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Wanindu_Hasaranga.jpg",
+    "origin": "Sri Lanka",
+    "position": "All-rounder",
+    "price": "625,000"
+  },
+  {
+    "id": 31,
+    "name": "Kusal Mendis",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/2/25/Kusal_Mendis.jpg",
+    "origin": "Sri Lanka",
+    "position": "Wicketkeeper-Batter",
+    "price": "100,000"
+  },
+  {
+    "id": 32,
+    "name": "Nicholas Pooran",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Nicholas_Pooran.jpg",
+    "origin": "West Indies",
+    "position": "Wicketkeeper-Batter",
+    "price": "2,520,000"
+  }
+]
