@@ -13,7 +13,7 @@ const navItems: NavItem[] = [
   { label: "Schedules", href: "/schedules" },
 ];
 
-export default function Nav() {
+export default function Nav({coin}: {coin: number}) {
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
 
   return (
@@ -51,7 +51,7 @@ export default function Nav() {
             <span className="flex size-8 items-center justify-center rounded-full bg-orange-400 text-xl font-bold">
               $
             </span>
-            <span>0</span>
+            <span>{coin} million</span>
           </button>
 
           {/* Mobile menu button */}

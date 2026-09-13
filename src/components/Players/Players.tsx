@@ -1,40 +1,62 @@
-import { use } from "react";
+import { use, useState } from "react";
 import type { PlayerType } from "../../Type/PlayerType";
-import Player from "../Player/Player";
+import AvailablePlayers from "../AvailablePlayers/AvailablePlayers";
+import SelectedPlayers from "../SelectedPlayers/SelectedPlayers";
+
 
 
 export interface PlayersProps {
-    playersPromise: Promise<PlayerType[]>
+    playersPromise: Promise<PlayerType[]>,
+    coin: number,
+    setCoin: React.Dispatch<React.SetStateAction<number>>
 }
 
-const Players = ({ playersPromise }: PlayersProps) => {
+const Players = ({ playersPromise, coin, setCoin }: PlayersProps) => {
 
+    // Use the use hook to handle the promise and get the players data.
     const players = use(playersPromise);
-    console.log(players);
+
+    // State to manage the active tab (available or selected).
+    const [activeTab, setActiveTab] = useState('available');
+    // Function to handle tab button clicks and update the active tab state.
+    const handleBtn = (tab: 'available' | 'selected') => {
+        setActiveTab(tab);
+    };
 
     return (
         <>
             <div className="container mx-auto">
                 <div className="flex justify-between p-10">
-                    <h2 className="text-xl font-bold">Available Players</h2>
-                    <div className="flex gap-2">
-                        <button className="btn btn-success">Available</button>
-                        <button className="btn">Selected</button>
+                    <h2 className="text-xl font-bold">
+
+                        {/* Render the appropriate player list based on the active tab */}
+                        {
+                            activeTab === 'available' ? (
+                                'Available Players'
+                            ) : (
+                                'Selected Players'
+                            )
+                        }
+                    </h2>
+                    <div className="flex ">
+                        {/* Tab buttons */}
+                        <button onClick={() => handleBtn('available')}
+                            className={`btn  rounded-r-none ${activeTab === 'available' ? 'btn-success' : ''}`}>Available</button>
+                        <button onClick={() => handleBtn('selected')}
+                            className={`btn rounded-l-none ${activeTab === 'selected' ? 'btn-success' : ''}`}>Selected</button>
                     </div>
 
                 </div>
 
-                <div className="md:min-w-300 mx-auto p-3 md:p-10 grid grid-cols-1 md:grid-cols-4 gap-5">
-                    {
-                        players.map(player =>
-                            <Player
-                                key={player.id}
-                                player={player} >
+                {/* Render the appropriate player list based on the active tab */}
+                {
+                    activeTab === 'available' ? (
+                        <AvailablePlayers players={players} coin={coin} setCoin={setCoin} />
+                    ) : (
+                        <SelectedPlayers />
+                    )
+                }
 
-                            </Player>)
-                    }
-
-                </div>
 
             </div>
         </>
